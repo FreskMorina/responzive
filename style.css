@@ -1,0 +1,26 @@
+#djatht {
+    display: flex;
+    justify-content:  space-evenly;
+     
+}
+#right {
+    background-color: lightblue;
+    height: 410px;
+    width: 200px;
+    text-align: center; 
+}
+img {
+    height: 600px;
+    width: 1000px;
+}
+@media only screen and (max-width: 600px) {
+  #djatht {
+    display: block;
+    
+  }
+  img {
+    height: 400px;
+    width: 500px;
+  }
+
+}
